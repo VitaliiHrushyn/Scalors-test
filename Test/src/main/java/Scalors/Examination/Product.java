@@ -2,30 +2,33 @@ package Scalors.Examination;
 
 import java.math.BigDecimal;
 
+import org.jsoup.nodes.Element;
+
 public class Product {
+	
+	private static ProductStringParser psp = new ProductStringParser();
 	
 	private String name;
 	private String brand;
 	private String color;
 	private BigDecimal price;
-	private BigDecimal campaignPrice;
-	private BigDecimal oldPrice;
+	private BigDecimal initialPrice;
 	private String description;
 	private String articleId;
 	private BigDecimal shippingCosts;
 	
-	public Product(String name, String brand, String color, String price, String campaignPrice,
-			String oldPrice, String description, String articleId, String shippingCosts) {
+	public Product(Element scriptElement) {
 		super();
-		this.name = name;
-		this.brand = brand;
-		this.color = color;
-		setPrice(price);
-		setCampaignPrice(campaignPrice);
-		setOldPrice(oldPrice);
-		this.description = description;
-		this.articleId = articleId;
-		setShippingCosts(shippingCosts);;
+		this.name = psp.fetch(scriptElement, "\"styles\":\\[\\{.{0,220}\"name\"");
+		this.brand = psp.fetch(scriptElement, "\"brand\":\\{.{0,220}\"name\"");
+		this.color = psp.fetch(scriptElement, "\"styles\":\\[\\{.{0,520}\"color\"").replace("u002F", "");
+		setPrice(psp.fetch(scriptElement, "\"styles\":\\[\\{.{0,520}\"campaignPrice\":\\{\"min\"").replace(",", ""));
+		setInitialPrice((!psp.fetch(scriptElement, "\"styles\":\\[\\{.{0,520}\"oldPrice\"").replace(",", "").equals("null")) ?
+				psp.fetch(scriptElement, "\"styles\":\\[\\{.{0,520}\"oldPrice\"").replace(",", "") :
+					psp.fetch(scriptElement, "\"styles\":\\[\\{.{0,520}\"price\":\\{\"min\"").replace(",", ""));
+		this.description = psp.fetch(scriptElement, "\"design\":\\[\\{.{0,1520}\"description\"").trim();
+		this.articleId = psp.fetch(scriptElement, "\"design\":\\[\\{.{0,1520}\"articleNumber\"");
+		setShippingCosts(psp.fetch(scriptElement, "\"promise:shipmentAndReturn\""));
 	}
 	
 	public String getName() {
@@ -53,19 +56,13 @@ public class Product {
 		if (price.equals("null")) this.price = null;
 		else this.price = (new BigDecimal(price)).divide(new BigDecimal(100));
 	}
-	public BigDecimal getCampaignPrice() {
-		return campaignPrice;
+	
+	public BigDecimal getInitialPrice() {
+		return initialPrice;
 	}
-	public void setCampaignPrice(String campaignPrice) {
-		if (campaignPrice.equals("null")) this.campaignPrice = null;
-		else this.campaignPrice = (new BigDecimal(campaignPrice)).divide(new BigDecimal(100));
-	}
-	public BigDecimal getOldPrice() {
-		return oldPrice;
-	}
-	public void setOldPrice(String oldPrice) {
-		if (oldPrice.equals("null")) this.oldPrice = null;
-		else this.oldPrice = (new BigDecimal(oldPrice)).divide(new BigDecimal(100));
+	public void setInitialPrice(String initialPrice) {
+		if (initialPrice.equals("null")) this.initialPrice = null;
+		else this.initialPrice = (new BigDecimal(initialPrice)).divide(new BigDecimal(100));
 	}
 	public String getDescription() {
 		return description;
@@ -83,7 +80,39 @@ public class Product {
 		return shippingCosts;
 	}
 	public void setShippingCosts(String shippingCosts) {
-		if (shippingCosts.equals("null")) this.shippingCosts = null;
+		if (shippingCosts.equals("Kostenloser Versand & Rückversand")) this.shippingCosts = new BigDecimal(0);
 		else this.shippingCosts = new BigDecimal(shippingCosts);
-	}	
+	}
+
+	@Override
+	public String toString() {
+		return "Product:\n name: " + name + "\n brand: " + brand + "\n color: " + color + "\n price: " + price
+				+ "\n initialPrice: " + initialPrice + "\n description: " + description + "\n articleId: " + articleId
+				+ "\n shippingCosts: " + shippingCosts + "";
+	}
+	
+//	public static void createProduct(Element scriptElement) {
+//	
+//	ProductStringParser psp = new ProductStringParser();
+//    
+//    Map<String,String> props = new LinkedHashMap<>();      
+//   
+//    props.put("name", psp.fetch(scriptElement, "\"styles\":\\[\\{.{0,220}\"name\""));
+//    props.put("brand", psp.fetch(scriptElement, "\"brand\":\\{.{0,220}\"name\""));
+//    props.put("color", psp.fetch(scriptElement, "\"styles\":\\[\\{.{0,520}\"color\"").replace("u002F", ""));
+//    props.put("price", psp.fetch(scriptElement, "\"styles\":\\[\\{.{0,520}\"campaignPrice\":\\{\"min\"").replace(",", ""));
+//    props.put("initial price", 
+//    		(!psp.fetch(scriptElement, "\"styles\":\\[\\{.{0,520}\"oldPrice\"").replace(",", "").equals("null")) ?
+//    				psp.fetch(scriptElement, "\"styles\":\\[\\{.{0,520}\"oldPrice\"").replace(",", "") :
+//    					psp.fetch(scriptElement, "\"styles\":\\[\\{.{0,520}\"price\":\\{\"min\"").replace(",", "")    		
+//    		);
+//    props.put("description", psp.fetch(scriptElement, "\"design\":\\[\\{.{0,1520}\"description\"").trim());
+//    props.put("article ID", psp.fetch(scriptElement, "\"design\":\\[\\{.{0,1520}\"articleNumber\""));
+//	props.put("shipment", psp.fetch(scriptElement, "\"promise:shipmentAndReturn\""));
+//    
+//    System.out.println(props);
+//	}
+	
+	
+	
 }
