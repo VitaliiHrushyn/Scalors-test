@@ -28,6 +28,7 @@ public class OfferList {
 		offers.add(product);
 	}
 	
-	
-
+	public int size() {
+		return this.offers.size();
+	}
 }

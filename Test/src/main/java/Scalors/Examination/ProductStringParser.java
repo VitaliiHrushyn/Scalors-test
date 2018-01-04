@@ -17,9 +17,7 @@ public class ProductStringParser {
 			result = m.group(1);
 		} catch (IllegalStateException e) {
 			System.err.println(e+" for: "+scriptElement.baseUri());
-		}
-		
+		}		
 		return result;
 	}
-
 }

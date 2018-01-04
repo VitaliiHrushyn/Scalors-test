@@ -1,2 +1,543 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<offers/>
+<offers>
+    <offer>
+        <name>Transat Polo</name>
+        <brand>HELLY HANSEN</brand>
+        <color>schwarz</color>
+        <price>40.5</price>
+        <initial_price>45</initial_price>
+        <description>Unser beliebtes kurzärmeliges HH Poloshirt für Herren. Angenehm weiches Baumwollpikee mit aufgesticktem Logo, geeignet für jeden Anlass. Erhältlich in verschiedenen Farben für Kombinationen nach Lust und Laune.</description>
+        <article_ID>7040052586636</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+    <offer>
+        <name>Duffle Bag 2 Reisetasche 30L 50 cm</name>
+        <brand>HELLY HANSEN</brand>
+        <color>blau \ orange</color>
+        <price>80</price>
+        <initial_price>80</initial_price>
+        <description>Leichte verstaubare Reisetasche von Helly Hansen mit verstellbarem Schulterriemen. Die Tasche besteht aus einem wasserdichten Material und kann wahlweise auch als Rucksack getragen werden.</description>
+        <article_ID>HH-68006-994</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+    <offer>
+        <name>Cargo Shorts '11 Hh Qd'</name>
+        <brand>HELLY HANSEN</brand>
+        <color>dunkelbeige \ grün</color>
+        <price>58.5</price>
+        <initial_price>65</initial_price>
+        <description>Strapazierfähige Outdoor-Cargoshorts für Aktivitäten aller Art im Freien. Diese gut sitzenden Shorts aus schnell trocknendem Stretchmaterial zeichnen sich durch extra Komfort und eine perfekte Passform aus und verfügen über alle notwendigen Taschen zum Verstauen Ihrer persönlichen Gegenstände.</description>
+        <article_ID>7040055066944</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+    <offer>
+        <name>Cargo Shorts '11 Hh Qd'</name>
+        <brand>HELLY HANSEN</brand>
+        <color>navy</color>
+        <price>58.5</price>
+        <initial_price>65</initial_price>
+        <description>Strapazierfähige Outdoor-Cargoshorts für Aktivitäten aller Art im Freien. Diese gut sitzenden Shorts aus schnell trocknendem Stretchmaterial zeichnen sich durch extra Komfort und eine perfekte Passform aus und verfügen über alle notwendigen Taschen zum Verstauen Ihrer persönlichen Gegenstände.</description>
+        <article_ID>7040054246675</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+    <offer>
+        <name>Damen Sportbekleidung</name>
+        <brand>HELLY HANSEN</brand>
+        <color>blau</color>
+        <price>67.5</price>
+        <initial_price>75</initial_price>
+        <description>HH LIFA® MERINO ist unser wärmstes Baselayer, das für alle Arten von Aktivitäten bei kaltem Wetter geeignet ist. Das einzigartige 2-in-1-Baselayer ist eine 2-lagige Konstruktion aus Lifa® Stay Warm-Technologie und 100 % Merinowolle. HH Lifa® MERINO bietet alle Vorteile der Merinowolle in Kombination mit den einzigartigen Eigenschaften technischer Lifa®-Fasern.</description>
+        <article_ID>7040055156089</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+    <offer>
+        <name>Reisetasche 30 Liter 53 cm</name>
+        <brand>HELLY HANSEN</brand>
+        <color>pink</color>
+        <price>70</price>
+        <initial_price>70</initial_price>
+        <description>Klassische, strapazierfähige Reisetasche von Helly Hansen aus hochwertigem, belastbarem Material mit verstaubaren Rucksackgurten.</description>
+        <article_ID>HH-67050-174</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+    <offer>
+        <name>Packable Reisetasche S 53 cm</name>
+        <brand>HELLY HANSEN</brand>
+        <color>schwarz \ weiß</color>
+        <price>28.45</price>
+        <initial_price>29.95</initial_price>
+        <description>Leichte verstaubare Reisetasche von Helly Hansen mit verstellbarem Schulterriemen. Die Seitentasche dient gleichzeitig als Packtasche zum platzsparendem Aufbewahren der Reisetasche.</description>
+        <article_ID>HH-67824-990</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+    <offer>
+        <name>Kulturbeutel 24 cm</name>
+        <brand>HELLY HANSEN</brand>
+        <color>blau \ schwarz</color>
+        <price>20</price>
+        <initial_price>20</initial_price>
+        <description>Klassische, strapazierfähige Kulturtasche von Helly Hansen aus hochwertigem Material mit verstaubaren Tragegriff</description>
+        <article_ID>HH-67020-558</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+    <offer>
+        <name>Bag 2.2 Kulturbeutel 24 cm</name>
+        <brand>HELLY HANSEN</brand>
+        <color>blau</color>
+        <price>25</price>
+        <initial_price>25</initial_price>
+        <description>Wasserdichte, strapazierfähige Kulturtasche von Helly Hansen aus hochwertigem Material.</description>
+        <article_ID>HH-68007-148</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+    <offer>
+        <name>Reisetasche 30 Liter 53 cm</name>
+        <brand>HELLY HANSEN</brand>
+        <color>blau</color>
+        <price>70</price>
+        <initial_price>70</initial_price>
+        <description>Klassische, strapazierfähige Reisetasche von Helly Hansen aus hochwertigem, belastbarem Material mit verstaubaren Rucksackgurten.</description>
+        <article_ID>HH-67050-558</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+    <offer>
+        <name>Bag 2.2 Kulturbeutel 24 cm</name>
+        <brand>HELLY HANSEN</brand>
+        <color>blau</color>
+        <price>25</price>
+        <initial_price>25</initial_price>
+        <description>Wasserdichte, strapazierfähige Kulturtasche von Helly Hansen aus hochwertigem Material.</description>
+        <article_ID>HH-68007-558</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+    <offer>
+        <name>Aden Backpack 2.0 Rucksack 45 cm</name>
+        <brand>HELLY HANSEN</brand>
+        <color>blau \ rot \ schwarz</color>
+        <price>33.16</price>
+        <initial_price>44.95</initial_price>
+        <description>Robuster Rucksack von Helly Hansen aus hochwertigem Material - ideal für Sport, Schule oder einfach nur als Reisebgleiter.</description>
+        <article_ID>HH-68044-535</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+    <offer>
+        <name>Hh Training T-Shirt</name>
+        <brand>HELLY HANSEN</brand>
+        <color>rot</color>
+        <price>13.46</price>
+        <initial_price>20</initial_price>
+        <description>Egal, wie Ihr Trainingsplan auch aussieht, dieses Trainings-T-Shirt für Herren bietet dank seines stilvollen Designs und Materials überragenden Komfort, funktionale Passform und ein trockenes Tragegefühl. Flache Nähte und eine bequeme Passform ergänzen den Komfort dieses vielseitigen, kurzärmeligen Trainingsoberteils.</description>
+        <article_ID>7040054088657</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+    <offer>
+        <name>Bag 2.2 Kulturbeutel 24 cm</name>
+        <brand>HELLY HANSEN</brand>
+        <color>blau \ orange</color>
+        <price>25</price>
+        <initial_price>25</initial_price>
+        <description>Wasserdichte, strapazierfähige Kulturtasche von Helly Hansen aus hochwertigem Material.</description>
+        <article_ID>HH-68007-994</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+    <offer>
+        <name>Bag 2.2 Kulturbeutel 24 cm</name>
+        <brand>HELLY HANSEN</brand>
+        <color>orange \ weiß</color>
+        <price>25</price>
+        <initial_price>25</initial_price>
+        <description>Wasserdichte, strapazierfähige Kulturtasche von Helly Hansen aus hochwertigem Material.</description>
+        <article_ID>HH-68007-002</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+    <offer>
+        <name>Kulturbeutel 24 cm</name>
+        <brand>HELLY HANSEN</brand>
+        <color>pink</color>
+        <price>20</price>
+        <initial_price>20</initial_price>
+        <description>Klassische, strapazierfähige Kulturtasche von Helly Hansen aus hochwertigem Material mit verstaubaren Tragegriff</description>
+        <article_ID>HH-67020-174</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+    <offer>
+        <name>Herren Outdoorbekleidung</name>
+        <brand>HELLY HANSEN</brand>
+        <color>blau</color>
+        <price>54</price>
+        <initial_price>60</initial_price>
+        <description>Die Daybreaker-Fleecejacke für Herren bietet ein superleichtes Design mit Frontreißverschluss. Die vielseitige Jacke hält Sie an kalten Herbstabenden warm, ist ein optimales Midlayer im Frühling und Sommer oder kann in Kombination mit einem Baselayer von Helly Hansen auch ideal im Winter getragen werden. Das warme, atmungsaktive und komfortable Fleece-Stretch-Material ist ein ganzjähriger Begleiter für Outdoor-, Segel- oder Skifans.</description>
+        <article_ID>7040054366786</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+    <offer>
+        <name>Herren Sportbekleidung</name>
+        <brand>HELLY HANSEN</brand>
+        <color>schwarz</color>
+        <price>63</price>
+        <initial_price>70</initial_price>
+        <description>HH LIFA® MERINO ist unser wärmstes Baselayer, das für alle Arten von Aktivitäten bei kaltem Wetter geeignet ist. Das einzigartige 2-in-1-Baselayer ist eine 2-lagige Konstruktion aus Lifa® Stay Warm-Technologie und 100 % Merinowolle. HH Lifa® MERINO bietet alle Vorteile der Merinowolle in Kombination mit den einzigartigen Eigenschaften technischer Lifa®-Fasern.</description>
+        <article_ID>7040055151534</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+    <offer>
+        <name>Rucksack 'Dublin' 48 cm</name>
+        <brand>HELLY HANSEN</brand>
+        <color>grün</color>
+        <price>50</price>
+        <initial_price>50</initial_price>
+        <description>Robuster Rucksack von Helly Hansen aus hochwertigem Material - ideal für Sport, Schule oder einfach nur als Reisebgleiter.</description>
+        <article_ID>HH-67029-498</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+    <offer>
+        <name>Damen Sportbekleidung</name>
+        <brand>HELLY HANSEN</brand>
+        <color>grau \ weinrot</color>
+        <price>67.5</price>
+        <initial_price>75</initial_price>
+        <description>HH LIFA® MERINO ist unser wärmstes Baselayer, das für alle Arten von Aktivitäten bei kaltem Wetter geeignet ist. Das einzigartige 2-in-1-Baselayer ist eine 2-lagige Konstruktion aus Lifa® Stay Warm-Technologie und 100 % Merinowolle. HH Lifa® MERINO bietet alle Vorteile der Merinowolle in Kombination mit den einzigartigen Eigenschaften technischer Lifa®-Fasern.</description>
+        <article_ID>7040055156041</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+    <offer>
+        <name>Damen Outdoorbekleidung</name>
+        <brand>HELLY HANSEN</brand>
+        <color>beere</color>
+        <price>99</price>
+        <initial_price>110</initial_price>
+        <description>Unsere Seven J-Jacke für Damen mit ihrem geradlinigen Design ist eine Outdoor-Regenjacke zu einem hervorragenden Preis. Mit Helly Tech®-Wetterschutz und grundlegenden Funktionen für Trekking, Radfahren oder einfach nur zum Relaxen bei wechselhaftem Wetter. Eine tolle winddichte, wasserdichte und atmungsaktive Regenjacke für die aktive Nutzung im Freien.</description>
+        <article_ID>7040055217728</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+    <offer>
+        <name>Damen Sportbekleidung</name>
+        <brand>HELLY HANSEN</brand>
+        <color>schwarz</color>
+        <price>40.5</price>
+        <initial_price>45</initial_price>
+        <description>HH LIFA® Mid ist ein Hochleistungs-Baselayer, das hervorragende Feuchtigkeitsregulierung und leichte Isolierung für Aktivitäten das ganze Jahr über bietet.  HH LIFA® Mid ist ein fortschrittliches 2-Lagen-Design mit 100 % Lifa®-Fasern direkt an der Haut und feuchtigkeitsabweisendem Außenmaterial. Eine unschlagbare Kombination für Feuchtigkeitsregulierung, leichte Wärme und Tragekomfort den ganzen Tag lang.</description>
+        <article_ID>7040055154184</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+    <offer>
+        <name>Damen Sportbekleidung</name>
+        <brand>HELLY HANSEN</brand>
+        <color>weiß</color>
+        <price>67.5</price>
+        <initial_price>75</initial_price>
+        <description>HH LIFA® MERINO ist unser wärmstes Baselayer, das für alle Arten von Aktivitäten bei kaltem Wetter geeignet ist. Das einzigartige 2-in-1-Baselayer ist eine 2-lagige Konstruktion aus Lifa® Stay Warm-Technologie und 100 % Merinowolle. HH Lifa® MERINO bietet alle Vorteile der Merinowolle in Kombination mit den einzigartigen Eigenschaften technischer Lifa®-Fasern.</description>
+        <article_ID>7040055156027</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+    <offer>
+        <name>Duffle Bag 2 Reisetasche 50L 60 cm</name>
+        <brand>HELLY HANSEN</brand>
+        <color>schwarz \ weiß</color>
+        <price>85.41</price>
+        <initial_price>89.9</initial_price>
+        <description>Leichte verstaubare Reisetasche von Helly Hansen mit verstellbarem Schulterriemen. Die Tasche besteht aus einem wasserdichten Material und kann wahlweise auch als Rucksack getragen werden.</description>
+        <article_ID>HH-68005-990</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+    <offer>
+        <name>Reisetasche 50 Liter 59 cm</name>
+        <brand>HELLY HANSEN</brand>
+        <color>hellblau \ lila</color>
+        <price>80</price>
+        <initial_price>80</initial_price>
+        <description>Klassische, strapazierfähige Reisetasche von Helly Hansen aus hochwertigem, belastbarem Material mit verstaubaren Rucksackgurten.</description>
+        <article_ID>HH-67002-148</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+    <offer>
+        <name>Daybreaker Fleece Jacket</name>
+        <brand>HELLY HANSEN</brand>
+        <color>dunkelgrau</color>
+        <price>54</price>
+        <initial_price>60</initial_price>
+        <description>Die Daybreaker-Fleecejacke für Damen ist eine besonders leichte, hübsche Jacke mit durchgehendem Frontreißverschluss. Die vielseitige Jacke hält Sie an kalten Herbstabenden warm, ist ein optimales Midlayer im Frühling und Sommer oder kann in Kombination mit einem Baselayer von Helly Hansen auch ideal im Winter getragen werden. Das warme, atmungsaktive und komfortable Fleece-Stretch-Material ist ein ganzjähriger Begleiter für Outdoor-, Segel- oder Skifans. Nehmen Sie eine in jeder Farbe!</description>
+        <article_ID>7040055212631</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+    <offer>
+        <name>Damen Sportbekleidung</name>
+        <brand>HELLY HANSEN</brand>
+        <color>schwarz</color>
+        <price>67.5</price>
+        <initial_price>75</initial_price>
+        <description>HH LIFA® MERINO ist unser wärmstes Baselayer, das für alle Arten von Aktivitäten bei kaltem Wetter geeignet ist. Das einzigartige 2-in-1-Baselayer ist eine 2-lagige Konstruktion aus Lifa® Stay Warm-Technologie und 100 % Merinowolle. HH Lifa® MERINO bietet alle Vorteile der Merinowolle in Kombination mit den einzigartigen Eigenschaften technischer Lifa®-Fasern.</description>
+        <article_ID>7040055156072</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+    <offer>
+        <name>Reisetasche 50 Liter 59 cm</name>
+        <brand>HELLY HANSEN</brand>
+        <color>blau</color>
+        <price>80</price>
+        <initial_price>80</initial_price>
+        <description>Klassische, strapazierfähige Reisetasche von Helly Hansen aus hochwertigem, belastbarem Material mit verstaubaren Rucksackgurten.</description>
+        <article_ID>HH-67002-558</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+    <offer>
+        <name>Kulturbeutel 24 cm</name>
+        <brand>HELLY HANSEN</brand>
+        <color>hellblau \ lila \ orange</color>
+        <price>20</price>
+        <initial_price>20</initial_price>
+        <description>Klassische, strapazierfähige Kulturtasche von Helly Hansen aus hochwertigem Material mit verstaubaren Tragegriff</description>
+        <article_ID>HH-67020-148</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+    <offer>
+        <name>Daybreaker Fleece Jacket</name>
+        <brand>HELLY HANSEN</brand>
+        <color>weinrot</color>
+        <price>54</price>
+        <initial_price>60</initial_price>
+        <description>Die Daybreaker-Fleecejacke für Damen ist eine besonders leichte, hübsche Jacke mit durchgehendem Frontreißverschluss. Die vielseitige Jacke hält Sie an kalten Herbstabenden warm, ist ein optimales Midlayer im Frühling und Sommer oder kann in Kombination mit einem Baselayer von Helly Hansen auch ideal im Winter getragen werden. Das warme, atmungsaktive und komfortable Fleece-Stretch-Material ist ein ganzjähriger Begleiter für Outdoor-, Segel- oder Skifans. Nehmen Sie eine in jeder Farbe!</description>
+        <article_ID>7040055212563</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+    <offer>
+        <name>Kulturbeutel 24 cm</name>
+        <brand>HELLY HANSEN</brand>
+        <color>lila \ orange \ weiß</color>
+        <price>20</price>
+        <initial_price>20</initial_price>
+        <description>Klassische, strapazierfähige Kulturtasche von Helly Hansen aus hochwertigem Material mit verstaubaren Tragegriff</description>
+        <article_ID>HH-67020-007</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+    <offer>
+        <name>Fleece Jacket</name>
+        <brand>HELLY HANSEN</brand>
+        <color>weiß</color>
+        <price>90</price>
+        <initial_price>100</initial_price>
+        <description>Warme und komfortable Fleecejacke für ein sportliches Outfit an kühleren Tagen. Hydropower-Applikation am Ärmel und gedrucktes HH Logo an der Rückenpasse. Wenn Sie eine klassische, strapazierfähige Sport- und Outdoortasche suchen, dann liegen Sie mit dieser Tasche mit 50&amp;nbsp;Liter Volumen, die sich problemlos in einen Reiserucksack mit verstellbaren Gurten umwandeln lässt, genau richtig.</description>
+        <article_ID>7040054714709</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+    <offer>
+        <name>Panorama Backpack 2.0 Rucksack 42cm</name>
+        <brand>HELLY HANSEN</brand>
+        <color>nachtblau \ pink</color>
+        <price>36.01</price>
+        <initial_price>49.95</initial_price>
+        <description>Robuster Rucksack von Helly Hansen aus hochwertigem Material - ideal für Sport, Schule oder einfach nur als Reisebgleiter.</description>
+        <article_ID>HH-68042-145</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+    <offer>
+        <name>Rucksack 'Dublin' 48 cm</name>
+        <brand>HELLY HANSEN</brand>
+        <color>blau \ gelb</color>
+        <price>50</price>
+        <initial_price>50</initial_price>
+        <description>Robuster Rucksack von Helly Hansen aus hochwertigem Material - ideal für Sport, Schule oder einfach nur als Reisebgleiter.</description>
+        <article_ID>HH-67029-563</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+    <offer>
+        <name>Herren Outdoorbekleidung</name>
+        <brand>HELLY HANSEN</brand>
+        <color>blau</color>
+        <price>54</price>
+        <initial_price>60</initial_price>
+        <description>Die Daybreaker-Fleecejacke für Herren bietet ein superleichtes Design mit Frontreißverschluss. Die vielseitige Jacke hält Sie an kalten Herbstabenden warm, ist ein optimales Midlayer im Frühling und Sommer oder kann in Kombination mit einem Baselayer von Helly Hansen auch ideal im Winter getragen werden. Das warme, atmungsaktive und komfortable Fleece-Stretch-Material ist ein ganzjähriger Begleiter für Outdoor-, Segel- oder Skifans.</description>
+        <article_ID>7040055212105</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+    <offer>
+        <name>Duffle Bag 2 Reisetasche 30L 50 cm</name>
+        <brand>HELLY HANSEN</brand>
+        <color>neongrün \ schwarz</color>
+        <price>75.91</price>
+        <initial_price>79.9</initial_price>
+        <description>Leichte verstaubare Reisetasche von Helly Hansen mit verstellbarem Schulterriemen. Die Tasche besteht aus einem wasserdichten Material und kann wahlweise auch als Rucksack getragen werden.</description>
+        <article_ID>HH-68006-992</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+    <offer>
+        <name>Herren Sportbekleidung</name>
+        <brand>HELLY HANSEN</brand>
+        <color>schwarz</color>
+        <price>36</price>
+        <initial_price>40</initial_price>
+        <description>HH LIFA® Light ist ein Hochleistungs-Baselayer, das leichte Isolierung und Komfort für den täglichen Gebrauch und bei intensiven Aktivitäten bietet. HH LIFA® Light aus 100 % Lifa®-Fasern ist schnell trocknend, sehr atmungsaktiv und superleicht. Die Lifa® Stay Warm-Technologie wurde während der letzten 40 Jahre immer weiter verbessert und ist ein einzigartiger Bestandteil der Funktionswäsche von Helly Hansen.</description>
+        <article_ID>7040055148244</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+    <offer>
+        <name>Reisetasche 90 Liter 70cm</name>
+        <brand>HELLY HANSEN</brand>
+        <color>blau</color>
+        <price>100</price>
+        <initial_price>100</initial_price>
+        <description>Klassische, strapazierfähige Reisetasche von Helly Hansen aus hochwertigem, belastbarem Material mit Rucksackgurten.</description>
+        <article_ID>HH-67004-558</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+    <offer>
+        <name>Herren Sportbekleidung</name>
+        <brand>HELLY HANSEN</brand>
+        <color>navy</color>
+        <price>40.5</price>
+        <initial_price>45</initial_price>
+        <description>HH LIFA® Light Seamless ist ein Hochleistungs-Baselayer, das leichte Isolierung und Komfort bei anstrengenden Aktivitäten bietet HH LIFA® Light Seamless aus Lifa-Fasern ist schnell trocknend, sehr atmungsaktiv und leicht und hat ein Superstretch-Design. Die Lifa® Stay Warm-Technologie wurde während der letzten 40 Jahre immer weiter verbessert und ist ein einzigartiger Bestandteil der Funktionswäsche von Helly Hansen.</description>
+        <article_ID>7040055148367</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+    <offer>
+        <name>Damen Outdoorbekleidung</name>
+        <brand>HELLY HANSEN</brand>
+        <color>weinrot</color>
+        <price>81</price>
+        <initial_price>90</initial_price>
+        <description>Der neue Precious Fleece mit 2-seitigem High Loft-Fleece bietet ein kuschelweiches Hautgefühl. Ideal bei und nach Ihren Aktivitäten im Herbst und Winter.</description>
+        <article_ID>7040055160697</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+    <offer>
+        <name>Damen Sportbekleidung</name>
+        <brand>HELLY HANSEN</brand>
+        <color>weiß</color>
+        <price>45</price>
+        <initial_price>50</initial_price>
+        <description>HH LIFA® Active ist ein Hochleistungs-Baselayer, das hervorragende Feuchtigkeitsregulierung und leichte Isolierung für Aktivitäten das ganze Jahr über bietet.  HH LIFA® Mid ist ein fortschrittliches 2-Lagen-Design mit 100 % Lifa®-Fasern direkt an der Haut und feuchtigkeitsabweisendem Außenmaterial. Eine unschlagbare Kombination für Feuchtigkeitsregulierung, leichte Wärme und Tragekomfort den ganzen Tag lang.</description>
+        <article_ID>7040055343489</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+    <offer>
+        <name>Rucksack 'Dublin' 48 cm</name>
+        <brand>HELLY HANSEN</brand>
+        <color>lila \ orange \ weiß</color>
+        <price>50</price>
+        <initial_price>50</initial_price>
+        <description>Robuster Rucksack von Helly Hansen aus hochwertigem Material - ideal für Sport, Schule oder einfach nur als Reisebgleiter.</description>
+        <article_ID>HH-67029-003</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+    <offer>
+        <name>Wash Bag 2 Kulturbeutel 24 cm</name>
+        <brand>HELLY HANSEN</brand>
+        <color>grau \ flieder \ orangerot</color>
+        <price>23.7</price>
+        <initial_price>24.95</initial_price>
+        <description>Wasserdichte, strapazierfähige Kulturtasche von Helly Hansen aus hochwertigem Material.</description>
+        <article_ID>HH-68007-107</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+    <offer>
+        <name>Rucksack 'Dublin' 48 cm</name>
+        <brand>HELLY HANSEN</brand>
+        <color>rot</color>
+        <price>50</price>
+        <initial_price>50</initial_price>
+        <description>Robuster Rucksack von Helly Hansen aus hochwertigem Material - ideal für Sport, Schule oder einfach nur als Reisebgleiter.</description>
+        <article_ID>HH-67029-117</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+    <offer>
+        <name>Damen Sportbekleidung</name>
+        <brand>HELLY HANSEN</brand>
+        <color>schwarz</color>
+        <price>36</price>
+        <initial_price>40</initial_price>
+        <description>HH LIFA® Light ist ein Hochleistungs-Baselayer, das leichte Isolierung und Komfort für den täglichen Gebrauch und bei intensiven Aktivitäten bietet. HH LIFA® Light aus 100 % Lifa®-Fasern ist schnell trocknend, sehr atmungsaktiv und superleicht. Die Lifa® Stay Warm-Technologie wurde während der letzten 40 Jahre immer weiter verbessert und ist ein einzigartiger Bestandteil der Funktionswäsche von Helly Hansen.</description>
+        <article_ID>7040055153002</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+    <offer>
+        <name>Damen Outdoorbekleidung</name>
+        <brand>HELLY HANSEN</brand>
+        <color>schwarz</color>
+        <price>90</price>
+        <initial_price>100</initial_price>
+        <description>Der Propile Strickfleece ist ein warmes und gemütliches, länger geschnittenes Kleidungsstück im traditionellen Strickpullover-Look.  Der perfekte Pullover, um Sie bei Spaziergängen an kühlen Herbsttagen oder beim Faulenzen auf der Hütte warm zu halten.</description>
+        <article_ID>7040054531757</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+    <offer>
+        <name>Herren Outdoorbekleidung</name>
+        <brand>HELLY HANSEN</brand>
+        <color>blau</color>
+        <price>99</price>
+        <initial_price>110</initial_price>
+        <description>Der November Propile Strickfleece ist ein warmes und robustes Kleidungsstück im traditionellen Strickpullover-Look mit Einsätzen zur Verstärkung. Ein perfekter Pullover, um Sie warm durch die Wintersaison zu bringen - draußen oder vor dem Kamin.</description>
+        <article_ID>7040055213126</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+    <offer>
+        <name>Hh Logo T-Shirt</name>
+        <brand>HELLY HANSEN</brand>
+        <color>dunkelbraun</color>
+        <price>27</price>
+        <initial_price>30</initial_price>
+        <description>Ein kurzärmeliges T-Shirt für Herren. Leichtes und komfortables Single-Jersey-T-Shirt aus 100 % Baumwolle mit großem HH® Logo auf der Brust.</description>
+        <article_ID>7040054247467</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+    <offer>
+        <name>Naiad Parka</name>
+        <brand>HELLY HANSEN</brand>
+        <color>nachtblau</color>
+        <price>224.96</price>
+        <initial_price>349.95</initial_price>
+        <description>In Fortführung unserer Segeltradition kombiniert der W Naiad Parka Leistung und Stil im sportlich-maritimen Look. Mit Helly Tech® Performance und vollständig isoliert mit Allied FX-Daunenmischung.  Mit seinem längeren Schnitt wärmt und schützt Sie der Naiad, wenn es richtig kalt wird.  Dekorative Taillenzug-Lösungen, ein weiche, gesteppte Kapuze und ein hoher Kragen sorgen für Schutz mit Stil.  PrimaLoft® Black-Isolierung, 133 g\u002Fm² am Körper, 100 g\u002Fm² in den Ärmeln . Mehrere Außentaschen . Regulierbare Kapuze . Reißverschlussregulierung an den Armabschlüssen . Innenbrusttasche mit Reißverschluss . YKK Metaluxe-Frontreißverschluss . HH® Logo auf dem Ärmel . Gedrucktes HH Logo auf Schulterblättern . Normale Passform . Mittlere Rückenlänge Größe L: 90 cm.</description>
+        <article_ID>7040054422987</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+    <offer>
+        <name>Duffle Bag 2 Reisetasche 30L 50 cm</name>
+        <brand>HELLY HANSEN</brand>
+        <color>nachtblau \ aqua</color>
+        <price>75.91</price>
+        <initial_price>79.9</initial_price>
+        <description>Leichte verstaubare Reisetasche von Helly Hansen mit verstellbarem Schulterriemen. Die Tasche besteht aus einem wasserdichten Material und kann wahlweise auch als Rucksack getragen werden.</description>
+        <article_ID>HH-68006-688</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+    <offer>
+        <name>Reisetasche 30 Liter 53 cm</name>
+        <brand>HELLY HANSEN</brand>
+        <color>hellblau \ lila</color>
+        <price>70</price>
+        <initial_price>70</initial_price>
+        <description>Klassische, strapazierfähige Reisetasche von Helly Hansen aus hochwertigem, belastbarem Material mit verstaubaren Rucksackgurten.</description>
+        <article_ID>HH-67050-148</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+    <offer>
+        <name>Bag 2.2 Kulturbeutel 24 cm</name>
+        <brand>HELLY HANSEN</brand>
+        <color>rosa \ rot</color>
+        <price>25</price>
+        <initial_price>25</initial_price>
+        <description>Wasserdichte, strapazierfähige Kulturtasche von Helly Hansen aus hochwertigem Material.</description>
+        <article_ID>HH-68007-117</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+    <offer>
+        <name>Herren Sportbekleidung</name>
+        <brand>HELLY HANSEN</brand>
+        <color>royalblau</color>
+        <price>31.5</price>
+        <initial_price>35</initial_price>
+        <description>HH LIFA® Light ist ein Hochleistungs-Baselayer, das leichte Isolierung und Komfort für den täglichen Gebrauch und bei intensiven Aktivitäten bietet. HH LIFA® Light aus 100 % Lifa®-Fasern ist schnell trocknend, sehr atmungsaktiv und superleicht. Die Lifa® Stay Warm-Technologie wurde während der letzten 40 Jahre immer weiter verbessert und ist ein einzigartiger Bestandteil der Funktionswäsche von Helly Hansen.</description>
+        <article_ID>7040055147988</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+    <offer>
+        <name>Duffle Bag 2 Reisetasche 30L 50 cm</name>
+        <brand>HELLY HANSEN</brand>
+        <color>nachtblau \ rot \ weiß</color>
+        <price>75.91</price>
+        <initial_price>79.9</initial_price>
+        <description>Leichte verstaubare Reisetasche von Helly Hansen mit verstellbarem Schulterriemen. Die Tasche besteht aus einem wasserdichten Material und kann wahlweise auch als Rucksack getragen werden.</description>
+        <article_ID>HH-68006-691</article_ID>
+        <shipping_costs>0</shipping_costs>
+    </offer>
+</offers>

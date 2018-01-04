@@ -25,8 +25,6 @@ public class OfferXMLWritter {
 			jaxbMarshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
 
 			jaxbMarshaller.marshal(offers, file);
-	//		jaxbMarshaller.marshal(offers, System.out);
-
 		      } catch (JAXBException e) {
 			e.printStackTrace();
 		      }
