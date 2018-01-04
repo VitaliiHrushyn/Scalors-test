@@ -36,8 +36,8 @@ public class Product {
 		setInitialPrice((!psp.fetch(scriptElement, "\"styles\":\\[\\{.{0,520}\"oldPrice\"").replace(",", "").equals("null")) ?
 				psp.fetch(scriptElement, "\"styles\":\\[\\{.{0,520}\"oldPrice\"").replace(",", "") :
 					psp.fetch(scriptElement, "\"styles\":\\[\\{.{0,520}\"price\":\\{\"min\"").replace(",", ""));
-		this.description = psp.fetch(scriptElement, "\"design\":\\[\\{.{0,1520}\"description\"").trim();
-		this.articleId = psp.fetch(scriptElement, "\"design\":\\[\\{.{0,1520}\"articleNumber\"");
+		this.description = psp.fetch(scriptElement, "\"articleNumber\":.{0,50}\"description\"").trim();
+		this.articleId = psp.fetch(scriptElement, "\"articleNumber\"");
 		setShippingCosts(psp.fetch(scriptElement, "\"promise:shipmentAndReturn\""));
 	}
 	
@@ -70,14 +70,15 @@ public class Product {
 	
 	@XmlElement
 	public void setPrice(String price) {
-		if (price.equals("null")) this.price = null;
+		if (price.equals("null")) this.price = "null";
 		else this.price = ((new BigDecimal(price)).divide(new BigDecimal(100)).toString());
 	}
 		
 	@XmlElement(name="initial_price")
 	public void setInitialPrice(String initialPrice) {
-		if (initialPrice.equals("null")) this.initialPrice = null;
+		if (initialPrice.equals("null")) this.initialPrice = "null";
 		else this.initialPrice = ((new BigDecimal(initialPrice)).divide(new BigDecimal(100)).toString());
+		if (this.price.equals("0")) this.price = this.initialPrice;
 	}
 	
 	public String getDescription() {

@@ -12,7 +12,14 @@ public class ProductStringParser {
 		Pattern p = Pattern.compile(regex);
 		Matcher m = p.matcher(scriptElement.html());
 		m.find();
-		return m.group(1);
+		String result = "null";
+		try {
+			result = m.group(1);
+		} catch (IllegalStateException e) {
+			System.err.println(e+" for: "+scriptElement.baseUri());
+		}
+		
+		return result;
 	}
 
 }
