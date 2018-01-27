@@ -5,6 +5,7 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.regex.Pattern;
 
+import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -63,5 +64,28 @@ public class ProductLinkFinder {
 	
 	public int getHttpRequest() {
 		return this.httpRequest;
+	}
+	
+	public static void main(String[] args) throws IOException {
+		String url ="https://www.aboutyou.de/p/marc-o-polo/hemd-button-down-long-sleeve-without-pocket-100co-regular-3769422";
+		
+		Connection con = Jsoup.connect(url);
+		Document doc = con.get();
+		StringBuffer sb = new StringBuffer();
+		Element body = doc.body();
+		Element script = body.selectFirst("script");
+		sb.append(script.data());
+		
+		Document doc2 = Jsoup.parse(sb.toString());
+				
+	//	Element body = doc.body();// .select("script").first().html();
+	//	Element script = body.selectFirst("script");
+	//	Element innerHtml = script.outerHtml();
+		
+	//	System.out.println(window);
+	//	System.out.println("---");
+	//	System.out.println(script.attr("data-reactid"));
+		System.out.println(doc.body().dataNodes());
+		
 	}
 }
